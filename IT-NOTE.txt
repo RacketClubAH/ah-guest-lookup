@@ -1,0 +1,9 @@
+Aphrodite Hills Guest Lookup — Local Browser Edition
+
+This is a static browser application. It does not connect to SharePoint, Microsoft Graph, Power Automate or any external database. PDFs are parsed in the user's browser. The extracted guest list is stored in that browser profile's localStorage.
+
+Please review and approve GitHub Pages as a hosting location before staff use this with live guest details. Source code is public on GitHub Pages; no guest files or actual guest data are stored in the repository.
+
+For two-computer use, staff must import the same daily PDF on each computer, or export/import the application JSON file using an approved company file location. The JSON file contains guest personal data and must be handled as confidential.
+
+The app loads the pinned PDF.js library from cdn.jsdelivr.net. If blocked, IT can approve this domain or arrange an approved internal static host.
